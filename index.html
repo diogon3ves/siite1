@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pri Cursos e Serviços</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #111, #1f1f1f);
+      color: white;
+      text-align: center;
+    }
+
+    header {
+      padding: 40px 20px;
+    }
+
+    h1 {
+      color: #ffcc00;
+      font-size: 32px;
+      margin-bottom: 10px;
+    }
+
+    .container {
+      max-width: 600px;
+      margin: auto;
+      padding: 20px;
+    }
+
+    .card {
+      background: #222;
+      padding: 25px;
+      border-radius: 15px;
+      box-shadow: 0px 0px 20px rgba(255, 204, 0, 0.2);
+    }
+
+    .price {
+      font-size: 28px;
+      color: #00ff99;
+      margin: 20px 0;
+      font-weight: bold;
+    }
+
+    .btn-whatsapp {
+      display: inline-block;
+      padding: 15px 30px;
+      background: #25D366;
+      color: white;
+      text-decoration: none;
+      font-size: 18px;
+      border-radius: 50px;
+      transition: all 0.3s ease;
+      animation: pulse 1.5s infinite;
+    }
+
+    .btn-whatsapp:hover {
+      transform: scale(1.1);
+      box-shadow: 0 0 20px #25D366;
+    }
+
+    @keyframes pulse {
+      0% { box-shadow: 0 0 0 0 rgba(37,211,102, 0.7); }
+      70% { box-shadow: 0 0 0 15px rgba(37,211,102, 0); }
+      100% { box-shadow: 0 0 0 0 rgba(37,211,102, 0); }
+    }
+
+    footer {
+      margin-top: 40px;
+      padding: 20px;
+      font-size: 14px;
+      color: #aaa;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Pri Cursos e Serviços</h1>
+    <p>Aprenda a Criar e Vender Perfumes Artesanais</p>
+  </header>
+
+  <div class="container">
+    <div class="card">
+      <h2>Curso Completo de Perfumes</h2>
+      <p>Aprenda do zero como fabricar perfumes, montar sua marca e começar a vender.</p>
+      
+      <div class="price">R$ 97,00</div>
+
+      <a class="btn-whatsapp" 
+         href="https://wa.me/5599999999999?text=Olá,%20quero%20comprar%20o%20curso%20de%20perfume%20da%20Pri%20Cursos" 
+         target="_blank">
+         Comprar pelo WhatsApp
+      </a>
+
+    </div>
+  </div>
+
+  <footer>
+    © 2026 Pri Cursos e Serviços - Todos os direitos reservados
+  </footer>
+
+</body>
+</html>
